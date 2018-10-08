@@ -65,10 +65,10 @@ let router= new Router({
       props:true
     },
     // 配置404页面，当页面发生异常时。可跳转到404页面
-    {
-      path:'*',
-      redirect:{name:'page404'}
-    }
+    // {
+    //   path:'*',
+    //   redirect:{name:'page404'}
+    // }
   ]
 });
 // 路由拦截
